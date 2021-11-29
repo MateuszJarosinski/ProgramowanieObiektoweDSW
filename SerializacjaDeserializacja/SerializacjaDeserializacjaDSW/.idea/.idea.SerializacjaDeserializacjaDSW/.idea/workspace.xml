@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef9792cf-89c9-453c-856b-4e8cfe996861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Engine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Wheel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SerializacjaDeserializacjaDSW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SerializacjaDeserializacjaDSW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Engine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Wheel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637664937597</updated>
       <workItem from="1637664941242" duration="2463000" />
+      <workItem from="1638215112087" duration="4084000" />
     </task>
     <servers />
   </component>
@@ -68,7 +70,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -80,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

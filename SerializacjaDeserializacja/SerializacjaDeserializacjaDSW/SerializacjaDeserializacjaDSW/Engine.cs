@@ -1,11 +1,12 @@
 using System;
+using System.ComponentModel;
 using System.Runtime.InteropServices;
 
 namespace SerializacjaDeserializacjaDSW
 {
     public class Engine
     {
-        private int _cylinders;
+        private int _cylinders = 1;
         public int Cylinders 
         {
             get
@@ -16,12 +17,11 @@ namespace SerializacjaDeserializacjaDSW
             {
                 if (value <= 0)
                 {
-                    value *= -1;
-                    _cylinders = value;
+                    throw new InvalidEnumArgumentException("Height must be above 0");
                 }
                 else
                 {
-                    value = _cylinders;
+                    _cylinders = value;
                 }
             }
         }
@@ -36,7 +36,7 @@ namespace SerializacjaDeserializacjaDSW
             }
             set
             {
-                if (value != "benzyna" || value != "deasel")
+                if (value != "benzyna" && value != "deasel")
                 {
                     Console.WriteLine("Nieznany typ paliwa");
                 }
@@ -45,6 +45,12 @@ namespace SerializacjaDeserializacjaDSW
                     _fuelTypel = value;
                 }
             }
+        }
+
+        public Engine(int cylinders, string fuelType)
+        {
+            Cylinders = cylinders;
+            FuelType = fuelType;
         }
     }
 }

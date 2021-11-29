@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace SerializacjaDeserializacjaDSW
 {
     public class Wheel
@@ -9,7 +11,7 @@ namespace SerializacjaDeserializacjaDSW
         //definiuje czy koło będzie posiadało klocki hamulcowe
         public bool isBraking;
 
-        private int _inches;
+        private int _inches = 1;
 
         public int Inches
         {
@@ -19,8 +21,23 @@ namespace SerializacjaDeserializacjaDSW
             }
             set
             {
-                
+                if (value < 0)
+                {
+                    throw new InvalidEnumArgumentException("Caale w kołach muszą być liczbą dodatnią");
+                }
+                else
+                {
+                    _inches = value;
+                }
             }
+        }
+
+        public Wheel(bool isSteering, bool isPowered, bool isBraking, int inches)
+        {
+            this.isSteering = isSteering;
+            this.isPowered = isPowered;
+            this.isBraking = isBraking;
+            Inches = inches;
         }
     }
 }
