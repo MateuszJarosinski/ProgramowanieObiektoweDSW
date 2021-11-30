@@ -1,4 +1,44 @@
 [
-  {},
-  {}
+  {
+    "_brand": "Audi",
+    "_model": "A4B8",
+    "_engineType": {
+      "Cylinders": 6,
+      "FuelType": "deasel"
+    },
+    "_wheels": [
+      {
+        "Inches": 18
+      },
+      {
+        "Inches": 18
+      },
+      {
+        "Inches": 18
+      },
+      null
+    ]
+  },
+  {
+    "_brand": "aaa",
+    "_model": "aaa",
+    "_engineType": {
+      "Cylinders": 6,
+      "FuelType": "deasel"
+    },
+    "_wheels": [
+      {
+        "Inches": 18
+      },
+      {
+        "Inches": 18
+      },
+      {
+        "Inches": 18
+      },
+      {
+        "Inches": 18
+      }
+    ]
+  }
 ]

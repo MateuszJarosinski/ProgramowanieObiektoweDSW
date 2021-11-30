@@ -27,21 +27,21 @@ namespace SerializacjaDeserializacjaDSW
 
 
             carsToSerialize = creator.CreateObjects();
-            foreach (var VARIABLE in carsToSerialize)
-            {
-                Console.WriteLine(VARIABLE);
-            }
             Console.WriteLine("Czy chesz zapisać stworzone pojazdy? (TAK / NIE)");
             string serializeAnswer = Console.ReadLine();
             if (serializeAnswer.ToUpper() == "TAK")
             {
-                JsonSerializerOptions options = new JsonSerializerOptions();
-                options.WriteIndented = true;
+                SerializeCars(carsToSerialize);
+            }
+        }
 
-                string serialize = JsonSerializer.Serialize(carsToSerialize ,options);
-                Console.WriteLine(serialize);
-                System.IO.File.WriteAllText("cars.json", serialize);
-           }
+        private static void SerializeCars(List<Car> carsToSerialize)
+        {
+            JsonSerializerOptions options = new JsonSerializerOptions();
+            options.WriteIndented = true;
+
+            string serialize = JsonSerializer.Serialize(carsToSerialize ,options);
+            System.IO.File.WriteAllText("cars.json", serialize);
         }
     }
 }

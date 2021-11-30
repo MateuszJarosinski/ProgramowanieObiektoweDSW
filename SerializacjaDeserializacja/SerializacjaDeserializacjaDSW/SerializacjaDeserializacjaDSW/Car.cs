@@ -4,10 +4,10 @@ namespace SerializacjaDeserializacjaDSW
 {
     public class Car
     {
-        private string _brand;
-        private string _model;
-        private Engine _engineType;
-        private Wheel[] _wheels;
+        public string _brand { get; set; }
+        public string _model { get; set; }
+        public Engine _engineType { get; set; }
+        public Wheel[] _wheels { get; set; }
 
         public Car(string brand, string model, Engine engineType, Wheel[] wheels)
         {
