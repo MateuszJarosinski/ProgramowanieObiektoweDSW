@@ -2,6 +2,8 @@
 using System.Text.Json;
 using System.Collections.Generic;
 
+//Zadanie wykonali Mateusz Jarosiński 43038 i Daniil Kononenko 43041
+
 namespace SerializacjaDeserializacjaDSW
 {
     class Program
