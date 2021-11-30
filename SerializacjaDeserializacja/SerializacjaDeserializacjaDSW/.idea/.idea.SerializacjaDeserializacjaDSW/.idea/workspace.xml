@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ef9792cf-89c9-453c-856b-4e8cfe996861" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SerializacjaDeserializacjaDSW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SerializacjaDeserializacjaDSW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/Engine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/SerializacjaDeserializacjaDSW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/SerializacjaDeserializacjaDSW.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/SerializacjaDeserializacjaDSW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/SerializacjaDeserializacjaDSW.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/ref/SerializacjaDeserializacjaDSW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/bin/Debug/net5.0/ref/SerializacjaDeserializacjaDSW.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/SerializacjaDeserializacjaDSW.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/ref/SerializacjaDeserializacjaDSW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerializacjaDeserializacjaDSW/obj/Debug/net5.0/ref/SerializacjaDeserializacjaDSW.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -38,7 +38,7 @@ namespace SerializacjaDeserializacjaDSW
             {
                 if (value != "benzyna" && value != "deasel")
                 {
-                    Console.WriteLine("Nieznany typ paliwa");
+                    throw new InvalidEnumArgumentException("Nieznany typ paliwa");
                 }
                 else
                 {
