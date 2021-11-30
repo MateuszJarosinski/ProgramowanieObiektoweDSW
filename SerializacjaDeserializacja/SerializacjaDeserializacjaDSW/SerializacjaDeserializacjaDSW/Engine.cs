@@ -17,7 +17,7 @@ namespace SerializacjaDeserializacjaDSW
             {
                 if (value <= 0)
                 {
-                    throw new InvalidEnumArgumentException("Height must be above 0");
+                    throw new InvalidEnumArgumentException("Cale muszą być wartościa dodatnią!");
                 }
                 else
                 {
@@ -26,7 +26,7 @@ namespace SerializacjaDeserializacjaDSW
             }
         }
 
-        private string _fuelType;
+        private string _fuelType = "benzyna";
 
         public string FuelType
         {
@@ -51,6 +51,11 @@ namespace SerializacjaDeserializacjaDSW
         {
             Cylinders = cylinders;
             FuelType = fuelType;
+        }
+
+        public Engine()
+        {
+            
         }
 
         public override string ToString()

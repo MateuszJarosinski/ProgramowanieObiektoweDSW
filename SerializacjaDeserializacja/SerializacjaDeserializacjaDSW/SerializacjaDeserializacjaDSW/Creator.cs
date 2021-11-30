@@ -15,7 +15,7 @@ namespace SerializacjaDeserializacjaDSW
             {
                 while (answer.ToUpper() == "TAK")
                 {
-                    Console.WriteLine("Co chcesz zrobić?");
+                    Console.WriteLine("Wybierz jaki obiekt chcesz stworzyć: (SILNIK, KOLO, POJAZD)");
                     string choice = Console.ReadLine().ToUpper();
                     switch (choice)
                     {
@@ -25,7 +25,7 @@ namespace SerializacjaDeserializacjaDSW
                         case "KOLO":
                             CreateWheel();
                             break;
-                        case "AUTO":
+                        case "POJAZD":
                             CreateCar();
                             break;
                         default:
@@ -44,10 +44,10 @@ namespace SerializacjaDeserializacjaDSW
                 string answerBrand = Console.ReadLine();
                 Console.WriteLine("Podaj model");
                 string answserModel = Console.ReadLine();
-                Console.WriteLine("Wybierz silnik: (index 0/1/2/3...)");
+                Console.WriteLine("Wybierz silnik: (index 1/2/3...)");
                 ShowEngines();
                 Engine answerEngine = ChooseEngine();
-                Console.WriteLine("Wybierz koła: ");
+                Console.WriteLine("Wybierz koła: (index 1/2/3...) ");
                 ShowWheels();
                 Wheel answerWheel = ChooseWheel();
                 Wheel[] fourWheelsArray = new Wheel[4];
@@ -100,7 +100,7 @@ namespace SerializacjaDeserializacjaDSW
             private Engine ChooseEngine()
             {
                 int index = Int32.Parse(Console.ReadLine());
-                Engine choosenEngine = engines[index];
+                Engine choosenEngine = engines[index - 1];
                 return choosenEngine;
             }
 
@@ -115,7 +115,7 @@ namespace SerializacjaDeserializacjaDSW
             private Wheel ChooseWheel()
             {
                 int index = Int32.Parse(Console.ReadLine());
-                Wheel choosenWheel = wheels[index];
+                Wheel choosenWheel = wheels[index - 1];
                 return choosenWheel;
             }
     }

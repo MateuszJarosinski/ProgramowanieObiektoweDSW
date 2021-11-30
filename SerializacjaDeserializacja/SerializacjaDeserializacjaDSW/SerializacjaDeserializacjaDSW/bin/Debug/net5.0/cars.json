@@ -20,10 +20,10 @@
     ]
   },
   {
-    "_brand": "aaa",
-    "_model": "aaa",
+    "_brand": "volskwagen",
+    "_model": "passsattttt",
     "_engineType": {
-      "Cylinders": 6,
+      "Cylinders": 10,
       "FuelType": "deasel"
     },
     "_wheels": [

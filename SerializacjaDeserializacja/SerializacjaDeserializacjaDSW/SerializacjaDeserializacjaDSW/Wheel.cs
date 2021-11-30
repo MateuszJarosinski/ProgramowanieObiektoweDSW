@@ -40,6 +40,11 @@ namespace SerializacjaDeserializacjaDSW
             Inches = inches;
         }
 
+        public Wheel()
+        {
+            
+        }
+
         public override string ToString()
         {
             return $"{_inches}-calowe koła";
