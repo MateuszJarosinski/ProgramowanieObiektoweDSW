@@ -26,13 +26,13 @@ namespace SerializacjaDeserializacjaDSW
             }
         }
 
-        private string _fuelTypel;
+        private string _fuelType;
 
         public string FuelType
         {
             get
             {
-                return _fuelTypel;
+                return _fuelType;
             }
             set
             {
@@ -42,7 +42,7 @@ namespace SerializacjaDeserializacjaDSW
                 }
                 else
                 {
-                    _fuelTypel = value;
+                    _fuelType = value;
                 }
             }
         }
@@ -51,6 +51,11 @@ namespace SerializacjaDeserializacjaDSW
         {
             Cylinders = cylinders;
             FuelType = fuelType;
+        }
+
+        public override string ToString()
+        {
+            return $"Silnik {_cylinders}-cylindrowy napędzany paliwem {_fuelType}";
         }
     }
 }

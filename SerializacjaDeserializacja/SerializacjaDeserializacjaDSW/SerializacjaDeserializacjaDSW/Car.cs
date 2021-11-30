@@ -19,7 +19,7 @@ namespace SerializacjaDeserializacjaDSW
 
         public override string ToString()
         {
-            return $"Auto marki {_brand}, model {_model}, z silnikiem {_engineType.Cylinders}-cylindrowym zasilanym paliwem {_engineType.FuelType}, na {_wheels.Length} kołach";
+            return $"Auto marki {_brand}, model {_model}, z silnikiem {_engineType.Cylinders}-cylindrowym zasilanym paliwem {_engineType.FuelType}, na {_wheels[0].Inches}-calowych kołach";
         }
     }
 }

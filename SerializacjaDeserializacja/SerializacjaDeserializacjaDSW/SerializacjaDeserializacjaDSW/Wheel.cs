@@ -39,5 +39,10 @@ namespace SerializacjaDeserializacjaDSW
             this.isBraking = isBraking;
             Inches = inches;
         }
+
+        public override string ToString()
+        {
+            return $"{_inches}-calowe koła";
+        }
     }
 }
